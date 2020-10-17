@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>dragon.png</file>
+        <file>player.png</file>
+        <file>cafe.png</file>
+        <file>cafewall.png</file>
+        <file>village.png</file>
+        <file>house.png</file>
+        <file>blank.bmp</file>
+        <file>battle_bg.png</file>
+        <file>death.png</file>
+        <file>menu.jpg</file>
+        <file>arrow.png</file>
+        <file>all.png</file>
+        <file>forest.png</file>
+        <file>stones.png</file>
+        <file>tiles.png</file>
+        <file>town.png</file>
+        <file>healer.png</file>
+        <file>items.png</file>
+        <file>shopkeeper.png</file>
+        <file>questnpc.png</file>
+        <file>animals.png</file>
+        <file>items2.png</file>
+    </qresource>
+    <qresource prefix="/music"/>
+</RCC>

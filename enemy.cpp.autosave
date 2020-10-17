@@ -1,0 +1,31 @@
+#include"actor_enemy.h"
+
+Enemy::Enemy()
+{
+    sheet=new QPixmap(":/images/death.png");
+    setPixmap(sheet->copy(0, 0, 32, 48));
+    name="Enemy";
+    hp=10;
+    attack=2;
+    defence=1;
+}
+void Enemy::updateHp(int changeBy)
+{
+    hp+=changeBy;
+}
+QString Enemy::getName()
+{
+    return name;
+}
+int Enemy::getHp()
+{
+    return hp;
+}
+int Enemy::getAttack()
+{
+    return attack;
+}
+int Enemy::getDefence()
+{
+    return defence;
+}
